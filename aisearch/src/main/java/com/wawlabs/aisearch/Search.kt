@@ -4,11 +4,10 @@ class Search {
     companion object {
         var search: Search? = null
         val instance: Search?
-            get() = if (search != null) search else {
-                Search()
-            }
+            get() = if (search != null) search else Search()
+
     }
-    fun search(): String {
+    fun searchIo(): String {
         return "Muhammet"
     }
 }
